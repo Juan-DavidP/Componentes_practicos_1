@@ -36,13 +36,13 @@ Por ejemplo:
 
 # Comentar las instrucciones anteriores para ejecutar las siguientes
 
-# numeroIngresado = input("Ingrese el número al cual desea contar sus dígitos: ")
-# contador = 0
+numeroIngresado = input("Ingrese el número al cual desea contar sus dígitos: ")
+contador = 0
 
-# while contador < len(numeroIngresado):
-#     contador +=1
+while contador < len(numeroIngresado):
+    contador +=1
 
-# print(f"El número de dígitos ingresados es {contador}")
+print(f"El número de dígitos ingresados es {contador}")
 
 
 print("actividad3")
