@@ -76,4 +76,30 @@ def numAleatorio():
 
 # numAleatorio()
 
+def numeros():
+    contador = 0
+    while contador < 10:
+        numeroAleatorio = numAleatorio()
+        if contador % 2 == 0 and numeroAleatorio % 2 == 0:  # Par
+            print(numeroAleatorio)
+            contador += 1
+        elif contador % 2 != 0 and numeroAleatorio % 2 != 0:  # Impar
+            print(numeroAleatorio)
+            contador += 1
+        
+numeros()
 
+# def numeros():
+#     listaNumeros = []
+#     for i in range(10):
+#         while True:
+#             numero = numAleatorio()
+#             if len(listaNumeros) % 2 == 0 and numero % 2 == 0:  # Par
+#                 listaNumeros.append(numero)
+#                 break
+#             elif len(listaNumeros) % 2 != 0 and numero % 2 != 0:  # Impar
+#                 listaNumeros.append(numero)
+#                 break
+#     print(listaNumeros)
+
+# numeros()
